@@ -6,8 +6,8 @@ import { useParams } from 'react-router-dom';
     const params = useParams();
 
   return (
-    <FormCard movieId={`${params.moveId}`} />
-  );
+    <FormCard movieId={`${params.movieId}`} />
+    );
 }
 
 export default Form;
